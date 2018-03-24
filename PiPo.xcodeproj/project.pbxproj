@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FD800012065D6F800D531A3 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5FD800002065D6F800D531A3 /* Actions.sks */; };
+		5FD800032065D6F800D531A3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD800022065D6F800D531A3 /* GameScene.swift */; };
+		5FD800052065D6F800D531A3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD800042065D6F800D531A3 /* GameViewController.swift */; };
+		5FD800082065D6F800D531A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD800062065D6F800D531A3 /* Main.storyboard */; };
+		5FD8000A2065D6F800D531A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FD800092065D6F800D531A3 /* Assets.xcassets */; };
+		5FD8000D2065D6F800D531A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD8000B2065D6F800D531A3 /* LaunchScreen.storyboard */; };
+		5FD800182065D6F800D531A3 /* PiPoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD800172065D6F800D531A3 /* PiPoTests.swift */; };
+		5FD800232065D6F800D531A3 /* PiPoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD800222065D6F800D531A3 /* PiPoUITests.swift */; };
+		5FD8FFFD2065D6F800D531A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD8FFFC2065D6F800D531A3 /* AppDelegate.swift */; };
+		5FD8FFFF2065D6F800D531A3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5FD8FFFE2065D6F800D531A3 /* GameScene.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FD800142065D6F800D531A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FD8FFF12065D6F800D531A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FD8FFF82065D6F800D531A3;
+			remoteInfo = PiPo;
+		};
+		5FD8001F2065D6F800D531A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FD8FFF12065D6F800D531A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FD8FFF82065D6F800D531A3;
+			remoteInfo = PiPo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FD800002065D6F800D531A3 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		5FD800022065D6F800D531A3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		5FD800042065D6F800D531A3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5FD800072065D6F800D531A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FD800092065D6F800D531A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FD8000C2065D6F800D531A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FD8000E2065D6F800D531A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FD800132065D6F800D531A3 /* PiPoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiPoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD800172065D6F800D531A3 /* PiPoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiPoTests.swift; sourceTree = "<group>"; };
+		5FD800192065D6F800D531A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FD8001E2065D6F800D531A3 /* PiPoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiPoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD800222065D6F800D531A3 /* PiPoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiPoUITests.swift; sourceTree = "<group>"; };
+		5FD800242065D6F800D531A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FD8FFF92065D6F800D531A3 /* PiPo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiPo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD8FFFC2065D6F800D531A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FD8FFFE2065D6F800D531A3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FD800102065D6F800D531A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD8001B2065D6F800D531A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD8FFF62065D6F800D531A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FD800162065D6F800D531A3 /* PiPoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FD800172065D6F800D531A3 /* PiPoTests.swift */,
+				5FD800192065D6F800D531A3 /* Info.plist */,
+			);
+			path = PiPoTests;
+			sourceTree = "<group>";
+		};
+		5FD800212065D6F800D531A3 /* PiPoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FD800222065D6F800D531A3 /* PiPoUITests.swift */,
+				5FD800242065D6F800D531A3 /* Info.plist */,
+			);
+			path = PiPoUITests;
+			sourceTree = "<group>";
+		};
+		5FD8FFF02065D6F800D531A3 = {
+			isa = PBXGroup;
+			children = (
+				5FD8FFFB2065D6F800D531A3 /* PiPo */,
+				5FD800162065D6F800D531A3 /* PiPoTests */,
+				5FD800212065D6F800D531A3 /* PiPoUITests */,
+				5FD8FFFA2065D6F800D531A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FD8FFFA2065D6F800D531A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FD8FFF92065D6F800D531A3 /* PiPo.app */,
+				5FD800132065D6F800D531A3 /* PiPoTests.xctest */,
+				5FD8001E2065D6F800D531A3 /* PiPoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FD8FFFB2065D6F800D531A3 /* PiPo */ = {
+			isa = PBXGroup;
+			children = (
+				5FD8FFFC2065D6F800D531A3 /* AppDelegate.swift */,
+				5FD8FFFE2065D6F800D531A3 /* GameScene.sks */,
+				5FD800002065D6F800D531A3 /* Actions.sks */,
+				5FD800022065D6F800D531A3 /* GameScene.swift */,
+				5FD800042065D6F800D531A3 /* GameViewController.swift */,
+				5FD800062065D6F800D531A3 /* Main.storyboard */,
+				5FD800092065D6F800D531A3 /* Assets.xcassets */,
+				5FD8000B2065D6F800D531A3 /* LaunchScreen.storyboard */,
+				5FD8000E2065D6F800D531A3 /* Info.plist */,
+			);
+			path = PiPo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FD800122065D6F800D531A3 /* PiPoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FD8002A2065D6F900D531A3 /* Build configuration list for PBXNativeTarget "PiPoTests" */;
+			buildPhases = (
+				5FD8000F2065D6F800D531A3 /* Sources */,
+				5FD800102065D6F800D531A3 /* Frameworks */,
+				5FD800112065D6F800D531A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FD800152065D6F800D531A3 /* PBXTargetDependency */,
+			);
+			name = PiPoTests;
+			productName = PiPoTests;
+			productReference = 5FD800132065D6F800D531A3 /* PiPoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FD8001D2065D6F800D531A3 /* PiPoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FD8002D2065D6F900D531A3 /* Build configuration list for PBXNativeTarget "PiPoUITests" */;
+			buildPhases = (
+				5FD8001A2065D6F800D531A3 /* Sources */,
+				5FD8001B2065D6F800D531A3 /* Frameworks */,
+				5FD8001C2065D6F800D531A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FD800202065D6F800D531A3 /* PBXTargetDependency */,
+			);
+			name = PiPoUITests;
+			productName = PiPoUITests;
+			productReference = 5FD8001E2065D6F800D531A3 /* PiPoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5FD8FFF82065D6F800D531A3 /* PiPo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FD800272065D6F900D531A3 /* Build configuration list for PBXNativeTarget "PiPo" */;
+			buildPhases = (
+				5FD8FFF52065D6F800D531A3 /* Sources */,
+				5FD8FFF62065D6F800D531A3 /* Frameworks */,
+				5FD8FFF72065D6F800D531A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PiPo;
+			productName = PiPo;
+			productReference = 5FD8FFF92065D6F800D531A3 /* PiPo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FD8FFF12065D6F800D531A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ahmed Ramy";
+				TargetAttributes = {
+					5FD800122065D6F800D531A3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5FD8FFF82065D6F800D531A3;
+					};
+					5FD8001D2065D6F800D531A3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5FD8FFF82065D6F800D531A3;
+					};
+					5FD8FFF82065D6F800D531A3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5FD8FFF42065D6F800D531A3 /* Build configuration list for PBXProject "PiPo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FD8FFF02065D6F800D531A3;
+			productRefGroup = 5FD8FFFA2065D6F800D531A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FD8FFF82065D6F800D531A3 /* PiPo */,
+				5FD800122065D6F800D531A3 /* PiPoTests */,
+				5FD8001D2065D6F800D531A3 /* PiPoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FD800112065D6F800D531A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD8001C2065D6F800D531A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD8FFF72065D6F800D531A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD800082065D6F800D531A3 /* Main.storyboard in Resources */,
+				5FD8FFFF2065D6F800D531A3 /* GameScene.sks in Resources */,
+				5FD8000A2065D6F800D531A3 /* Assets.xcassets in Resources */,
+				5FD8000D2065D6F800D531A3 /* LaunchScreen.storyboard in Resources */,
+				5FD800012065D6F800D531A3 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FD8000F2065D6F800D531A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD800182065D6F800D531A3 /* PiPoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD8001A2065D6F800D531A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD800232065D6F800D531A3 /* PiPoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD8FFF52065D6F800D531A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD800032065D6F800D531A3 /* GameScene.swift in Sources */,
+				5FD800052065D6F800D531A3 /* GameViewController.swift in Sources */,
+				5FD8FFFD2065D6F800D531A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FD800152065D6F800D531A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FD8FFF82065D6F800D531A3 /* PiPo */;
+			targetProxy = 5FD800142065D6F800D531A3 /* PBXContainerItemProxy */;
+		};
+		5FD800202065D6F800D531A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FD8FFF82065D6F800D531A3 /* PiPo */;
+			targetProxy = 5FD8001F2065D6F800D531A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FD800062065D6F800D531A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FD800072065D6F800D531A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FD8000B2065D6F800D531A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FD8000C2065D6F800D531A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FD800252065D6F900D531A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FD800262065D6F900D531A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FD800282065D6F900D531A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 969Y6REAB6;
+				INFOPLIST_FILE = PiPo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ShaDiLiX.PiPo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FD800292065D6F900D531A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 969Y6REAB6;
+				INFOPLIST_FILE = PiPo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ShaDiLiX.PiPo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5FD8002B2065D6F900D531A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 969Y6REAB6;
+				INFOPLIST_FILE = PiPoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ShaDiLiX.PiPoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiPo.app/PiPo";
+			};
+			name = Debug;
+		};
+		5FD8002C2065D6F900D531A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 969Y6REAB6;
+				INFOPLIST_FILE = PiPoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ShaDiLiX.PiPoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiPo.app/PiPo";
+			};
+			name = Release;
+		};
+		5FD8002E2065D6F900D531A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 969Y6REAB6;
+				INFOPLIST_FILE = PiPoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ShaDiLiX.PiPoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PiPo;
+			};
+			name = Debug;
+		};
+		5FD8002F2065D6F900D531A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 969Y6REAB6;
+				INFOPLIST_FILE = PiPoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ShaDiLiX.PiPoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PiPo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FD800272065D6F900D531A3 /* Build configuration list for PBXNativeTarget "PiPo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD800282065D6F900D531A3 /* Debug */,
+				5FD800292065D6F900D531A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FD8002A2065D6F900D531A3 /* Build configuration list for PBXNativeTarget "PiPoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD8002B2065D6F900D531A3 /* Debug */,
+				5FD8002C2065D6F900D531A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FD8002D2065D6F900D531A3 /* Build configuration list for PBXNativeTarget "PiPoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD8002E2065D6F900D531A3 /* Debug */,
+				5FD8002F2065D6F900D531A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FD8FFF42065D6F800D531A3 /* Build configuration list for PBXProject "PiPo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD800252065D6F900D531A3 /* Debug */,
+				5FD800262065D6F900D531A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FD8FFF12065D6F800D531A3 /* Project object */;
+}
